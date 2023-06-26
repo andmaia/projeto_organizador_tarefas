@@ -22,15 +22,15 @@ public class Task {
     @Column(unique = true)
     private String name;
     @Nullable
-    private String descricao;
-    private LocalDateTime criacao;
+    private String description;
+    private LocalDateTime creation;
     @Nullable
-    private LocalDateTime termino;
-    private boolean ativo;
-    private boolean favorito;
+    private LocalDateTime deadline;
+    private boolean active;
+    private boolean favorite;
 
     @ManyToOne
-    @JoinColumn(name="id_categoria")
-    private Category categoria;
+    @JoinColumn(name = "category_id")
+    private Category category;
 
 }

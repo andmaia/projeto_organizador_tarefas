@@ -23,13 +23,16 @@ public class Category {
     @Column(unique = true)
     private String name;
     @Nullable
-    private String descricao;
-    private LocalDateTime cricao;
+    private String description;
+    private LocalDateTime creation;
     @Nullable
-    private LocalDateTime termino;
-    private boolean ativo;
-    @OneToMany(cascade = CascadeType.ALL,mappedBy = "categoria",fetch = FetchType.LAZY)
+    private LocalDateTime deadline;
+    private boolean active;
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "category", fetch = FetchType.LAZY)
     private List<Task> tasks = new ArrayList<Task>();
 
+    @ManyToOne
+    @JoinColumn(name = "person_id")
+    private Person person;
 
 }
