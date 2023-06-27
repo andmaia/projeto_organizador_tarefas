@@ -7,6 +7,8 @@ import lombok.NoArgsConstructor;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
 
 @Table(name="t_pts_person")
 @Entity
@@ -20,6 +22,11 @@ public class Person {
     private Long id;
 
     private String name;
-    private LocalDate nascimento;
-    private LocalDateTime criacao;
+    private LocalDate birthDate;
+    private LocalDateTime creation;
+
+    private boolean active;
+    @OneToMany(mappedBy = "person", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    private List<Category> categories = new ArrayList<>();
+
 }

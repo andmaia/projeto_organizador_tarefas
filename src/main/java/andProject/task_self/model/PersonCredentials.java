@@ -16,10 +16,11 @@ public class PersonCredentials {
     private Long id;
 
     private String email;
-    private String senha;
+    private String password;
 
     @OneToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name="id_pessoa")
+    @JoinColumn(name = "person_id")
     @MapsId
     private Person person;
+
 }
