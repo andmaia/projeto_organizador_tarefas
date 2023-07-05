@@ -17,4 +17,7 @@ public class CreatePersonDTO {
 
         @NotNull(message = "Could not be null")
         private LocalDate birthDate;
+
+        @NotNull(message = "Could not be null")
+        private long credential;
 }

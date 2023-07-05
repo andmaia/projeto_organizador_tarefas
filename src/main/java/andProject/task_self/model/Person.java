@@ -25,6 +25,11 @@ public class Person {
     private LocalDateTime creation;
 
     private boolean active;
+    @OneToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "credentials_id")
+    private PersonCredentials personCredentials;
+
+
     @OneToMany(mappedBy = "person", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<Category> categories = new ArrayList<>();
 

@@ -27,7 +27,7 @@ public class CategoryService {
 
     public GetResponseCategoryDTO createCategory(CreateCategoryDTO request){
         var category = modelMapper.map(request, Category.class);
-        var person = personRepository.getReferenceById(request.getPerson());
+        var person = personRepository.findById(request.getPerson()).orElseThrow(()->new EntityNotFoundException());
         category.setPerson(person);
         category.setActive(true);
         category.setCreation(LocalDateTime.now());
