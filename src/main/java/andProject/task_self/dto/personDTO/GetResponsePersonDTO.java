@@ -15,4 +15,5 @@ public class GetResponsePersonDTO {
     private Long id;
     private String name;
     private LocalDate birthDate;
+    private  String email;
 }
