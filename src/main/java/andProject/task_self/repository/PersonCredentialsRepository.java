@@ -6,6 +6,5 @@ import org.springframework.security.core.userdetails.UserDetails;
 
 public interface PersonCredentialsRepository extends JpaRepository<PersonCredentials,Long> {
     UserDetails findByEmail(String username);
-
     boolean existsByEmail(String email);
 }

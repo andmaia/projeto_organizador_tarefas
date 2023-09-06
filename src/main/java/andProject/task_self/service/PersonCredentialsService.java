@@ -2,6 +2,7 @@ package andProject.task_self.service;
 
 import andProject.task_self.dto.personCredentials.AuthenticationPersonDto;
 import andProject.task_self.dto.personCredentials.CreatePersonCredentialDTO;
+import andProject.task_self.dto.personCredentials.GetPersonCredentials;
 import andProject.task_self.model.PersonCredentials;
 import andProject.task_self.repository.PersonCredentialsRepository;
 import jakarta.persistence.EntityNotFoundException;
@@ -31,9 +32,11 @@ public class PersonCredentialsService {
 
     }
 
-    public CreatePersonCredentialDTO get(Long id){
+
+
+    public GetPersonCredentials get(Long id){
         var personCredentials = personCredentialsRepository.findById(id).orElseThrow(()->new EntityNotFoundException());
-        var response = modelMapper.map(personCredentials,CreatePersonCredentialDTO.class);
+        var response = modelMapper.map(personCredentials, GetPersonCredentials.class);
         return  response;
     }
 

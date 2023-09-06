@@ -89,7 +89,7 @@ public class TaskService {
 
     public void favoriTask(Long id){
         var task =taskRepository.findById(id).orElseThrow(()->new EntityNotFoundException());
-        task.setFavorite(true);
+        task.setFavorite(!task.isFavorite());
         taskRepository.save(task);
     }
 

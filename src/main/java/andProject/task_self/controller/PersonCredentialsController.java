@@ -1,6 +1,7 @@
 package andProject.task_self.controller;
 
 import andProject.task_self.dto.personCredentials.CreatePersonCredentialDTO;
+import andProject.task_self.dto.personCredentials.GetPersonCredentials;
 import andProject.task_self.service.PersonCredentialsService;
 import jakarta.transaction.TransactionScoped;
 import jakarta.transaction.Transactional;
@@ -28,7 +29,7 @@ public class PersonCredentialsController {
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<CreatePersonCredentialDTO> get(@PathVariable @NotNull Long id){
+    public ResponseEntity<GetPersonCredentials> get(@PathVariable @NotNull Long id){
         var response = service.get(id);
         return ResponseEntity.ok(response);
     }
