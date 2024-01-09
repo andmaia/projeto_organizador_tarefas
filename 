@@ -1,0 +1,107 @@
+[33mcommit 9935459090b15f91365d023199231524afcf39c6[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: andmaia <andrewrian198@gmail.com>
+Date:   Tue Jan 9 15:13:51 2024 -0300
+
+    Add docker image
+
+[33mcommit cfdfb879b2bb8173afc93352ba647a423ac14b86[m[33m ([m[1;31morigin/master[m[33m)[m
+Merge: 54336d4 30e77a0
+Author: andmaia <andrewrian198@gmail.com>
+Date:   Wed Sep 6 00:31:33 2023 -0300
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 54336d4b1e14e3058d05cedf279d864c27b535ee[m
+Author: andmaia <andrewrian198@gmail.com>
+Date:   Wed Sep 6 00:30:53 2023 -0300
+
+    Add refatoração de camada service
+
+[33mcommit 30e77a0006dce44a57dc53cdb8e9551cf4c1c3ea[m
+Author: andmaia <102262037+andmaia@users.noreply.github.com>
+Date:   Wed Sep 6 00:04:48 2023 -0300
+
+    Add or update the Azure App Service build and deployment workflow config
+
+[33mcommit def6bafc25847099a78a153e6b3a015a9945f9f3[m
+Author: andmaia <102262037+andmaia@users.noreply.github.com>
+Date:   Tue Sep 5 23:20:26 2023 -0300
+
+    Update master_api-taskself.yml
+
+[33mcommit fcf99d4e44a3ce62a639563d611cc44f0ae0ad06[m
+Author: andmaia <andrewrian198@gmail.com>
+Date:   Tue Sep 5 23:05:19 2023 -0300
+
+    Add refatoração de camada service
+
+[33mcommit e93eca87b9de3772164f26480b29dbe90c4ffc26[m
+Author: andmaia <102262037+andmaia@users.noreply.github.com>
+Date:   Tue Sep 5 22:57:38 2023 -0300
+
+    Add or update the Azure App Service build and deployment workflow config
+
+[33mcommit 0663ba8b6cba0fe01c22097e6e81102dbdc04294[m
+Author: andmaia <andrewrian198@gmail.com>
+Date:   Tue Sep 5 21:06:23 2023 -0300
+
+    Add refatoração de camada service
+
+[33mcommit bf19b8b10045a592804457010e11e046c7879468[m
+Merge: 9ac83bc 709322d
+Author: andmaia <andrewrian198@gmail.com>
+Date:   Wed Jul 5 16:12:04 2023 -0300
+
+    Merge branch 'develop' of https://github.com/andmaia/projeto_organizador_tarefas
+
+[33mcommit 709322d969edaabe0d04acd59fdfb58382877913[m[33m ([m[1;31morigin/develop[m[33m, [m[1;32mdevelop[m[33m)[m
+Author: andmaia <andrewrian198@gmail.com>
+Date:   Wed Jul 5 16:04:03 2023 -0300
+
+    Adicionado validação de token jwt e autorição de acessos
+
+[33mcommit 08bc98d902a8f3a656b7cf2fb2726b58cbdb03c2[m
+Author: andmaia <andrewrian198@gmail.com>
+Date:   Wed Jun 28 00:02:49 2023 -0300
+
+    Terminado a camada de service e controller
+
+[33mcommit 9ac83bc436b2c390638e5d7cabcfb34f3dfa9401[m
+Merge: 32a893f 338d55d
+Author: andmaia <andrewrian198@gmail.com>
+Date:   Tue Jun 27 13:21:14 2023 -0300
+
+    Merge branch 'master' of https://github.com/andmaia/projeto_organizador_tarefas
+
+[33mcommit 32a893f44a23a34c7dd5ec3fffbb3780a93f611d[m
+Author: andmaia <andrewrian198@gmail.com>
+Date:   Tue Jun 27 13:20:58 2023 -0300
+
+    Atualizando o modelo
+
+[33mcommit 338d55dadc4b8db4c67dcda37fc01e6effdb9fd6[m
+Merge: 0c27105 e054f40
+Author: andmaia <102262037+andmaia@users.noreply.github.com>
+Date:   Mon Jun 26 00:04:15 2023 -0300
+
+    Merge pull request #1 from andmaia/develop
+    
+    Adicionando camada service e controller para as classes person e cate…
+
+[33mcommit e054f40ea65b27cd6b001377ebaaf4d8a8a9664b[m
+Author: andmaia <andrewrian198@gmail.com>
+Date:   Sun Jun 25 23:56:27 2023 -0300
+
+    Adicionando camada service e controller para as classes person e category
+
+[33mcommit 0c2710561a89b1f3103adc0ff98df2b6398ff38c[m
+Author: andmaia <andrewrian198@gmail.com>
+Date:   Sat Jun 24 16:09:26 2023 -0300
+
+    Adicionando a camada de entidades no projeto
+
+[33mcommit 1392b8ce55d39457d7a1064fa00ce48549d1f79f[m
+Author: andmaia <andrewrian198@gmail.com>
+Date:   Fri Jun 23 13:33:02 2023 -0300
+
+    Initial commit

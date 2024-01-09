@@ -1,0 +1,9 @@
+runtime:
+  javaVersion: Corretto 11
+
+build:
+  command: mvn clean install  # Comando de compilação do Maven
+
+startCommand: java -jar target/task_self-0.0.1-SNAPSHOT.jar  # Comando para iniciar o servidor Spring Boot
+
+port: 8080  # Porta em que sua aplicação Spring está configurada para ouvir
